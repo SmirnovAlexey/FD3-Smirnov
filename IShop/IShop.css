@@ -1,0 +1,82 @@
+.IShop .NameShop {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: -1px -1px #FFF,
+                 -2px -2px #FFF,
+                 -1px 1px #FFF,
+                 -2px 2px #FFF,
+                 1px 1px #FFF,
+                 2px 2px #FFF,
+                 1px -1px #FFF,
+                 2px -2px #FFF,
+                 -3px -3px 2px #BBB,
+                 -3px 3px 2px #BBB,
+                 3px 3px 2px #BBB,
+                 3px -3px 2px #BBB;
+    color: steelblue;
+    }  
+
+.IShop .Table
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.IShop .Table td{
+    border: 1px solid black;
+}
+
+.IShop .Table .Body tr:nth-child(odd) {
+    background-color: #33beff;
+}
+
+.IShop .Table .Body tr:nth-child(even) {
+    background-color: #95e1e4;
+}
+
+.IShop .Table .Row td{
+    padding: 10px;
+}
+
+.IShop .Table .Head .Row {
+    font-weight: bold;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    background-color: #e6e4e4;
+  }
+
+.IShop .Table .Body .Row .Name
+{
+  font-weight: bold;
+  text-align: left;
+}
+  
+  .IShop .Table .Body .Row .Price
+{
+  width: 30px;
+  text-align: right;
+}
+
+.IShop .Table .Body .Row .Remainder
+{
+  width: 30px;
+  text-align: center;
+}
+
+.IShop .Table .Body .Row .Images
+{
+    width: 250px;
+}
+
+.IShop .Table .Body .Row .Images .Image
+{
+    display: inline;
+    margin: 0 5px;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+
