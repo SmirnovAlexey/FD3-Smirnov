@@ -1,0 +1,43 @@
+.IShopBlock .NameShop {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: -1px -1px #FFF,
+                 -2px -2px #FFF,
+                 -1px 1px #FFF,
+                 -2px 2px #FFF,
+                 1px 1px #FFF,
+                 2px 2px #FFF,
+                 1px -1px #FFF,
+                 2px -2px #FFF,
+                 -3px -3px 2px #BBB,
+                 -3px 3px 2px #BBB,
+                 3px 3px 2px #BBB,
+                 3px -3px 2px #BBB;
+    color: steelblue;
+    }  
+
+.IShopBlock .Table
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.IShopBlock .Table td{
+    border: 1px solid black;
+}
+
+.IShopBlock .Table .Row,
+.IShopBlock .Table .RowSelected,
+ td{
+    padding: 10px;
+} 
+
+.IShopBlock .Table .Head .Row 
+{
+    font-weight: bold;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    background-color: #e6e4e4;
+}

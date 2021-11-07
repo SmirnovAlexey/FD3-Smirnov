@@ -1,0 +1,46 @@
+.Row {
+  background-color: #ffffff;
+}
+  
+.RowSelected {
+  background-color: #df35c2;
+}
+
+.Row .Name,
+.RowSelected .Name
+{
+  font-weight: bold;
+  text-align: left;
+}
+  
+.Row .Price,
+.RowSelected .Price
+{
+  width: 30px;
+  text-align: right;
+}
+
+.Row .Remainder,
+.RowSelected .Remainder
+{
+  width: 30px;
+  text-align: center;
+}
+
+.Row .Images,
+.RoRowSelectedw .Images
+{
+    width: 250px;
+}
+
+.Row .Images .Image,
+.RowSelected .Images .Image
+{
+    display: inline;
+    margin: 0 5px;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+
