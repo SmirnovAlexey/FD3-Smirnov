@@ -1,0 +1,46 @@
+.Find .Filter .CheckBox {
+  width: 20px;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.Find .Filter .Text {
+  width: 200px;
+  border-radius: 3px;
+  margin: 3px;
+}
+
+.Find .Filter .Button {
+  width: 100px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.Find .FilterList .Select {
+  width: 400px;
+}
+
+.Find .Textarea {
+  width: 400px;
+  height: 100px;
+}
+
+.Find .Holder {
+    font-size: 30px;
+    font-weight: normal;
+    text-shadow: -1px -1px #FFF,
+                 -2px -2px #FFF,
+                 -1px 1px #FFF,
+                 -2px 2px #FFF,
+                 1px 1px #FFF,
+                 2px 2px #FFF,
+                 1px -1px #FFF,
+                 2px -2px #FFF,
+                 -3px -3px 2px #BBB,
+                 -3px 3px 2px #BBB,
+                 3px 3px 2px #BBB,
+                 3px -3px 2px #BBB;
+    color: steelblue;
+    }  
+
