@@ -37,7 +37,7 @@ var IShopBlock = React.createClass({
     },
 
     deleteRow: function(rowNumber) {
-        var newDeleteRows = this.state.deleteRows;
+        var newDeleteRows = this.state.deleteRows.slice();
         newDeleteRows.push(rowNumber);
         this.setState({ deleteRows : newDeleteRows}, this.resort)
     },
