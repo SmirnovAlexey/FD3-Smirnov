@@ -1,0 +1,31 @@
+.IShopCard .TableCard
+{
+    width: 50%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.IShopCard .TableCard td{
+    border: 1px solid black;
+}
+
+.IShopCard .TableCard .RowCard td{
+    padding: 10px;
+}  
+
+.IShopCard .TableCard .RowCard .Name{
+  width: 200px;
+} 
+
+.IShopCard .TableCard .RowCard .Value{
+  width: 300px;
+} 
+
+.IShopCard .TableCard .RowCard .Input{
+  width: 100%;
+} 
+
+.IShopCard .TableCard .RowCard .Label{
+  color: red;
+  font-weight:bold;
+} 
