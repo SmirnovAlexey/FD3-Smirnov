@@ -1,0 +1,9 @@
+.RainbowFrame {
+    border: 15px solid;
+    border-color: white;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}  
+
