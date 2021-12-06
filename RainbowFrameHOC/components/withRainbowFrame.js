@@ -9,7 +9,7 @@ function build(colorArray, Component, props) {
 }
 
 const withRainbowFrame = colors => Component => props => (
-	build(colors.length == 0 ? [' '] : colors, Component, props)
+	build(colors.length == 0 ? [' '] : colors.slice(), Component, props)
 );
 
 export {withRainbowFrame};
