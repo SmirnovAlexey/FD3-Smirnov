@@ -1,0 +1,2893 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`работа MobileCompany 1`] = `
+<MobileCompany
+  clients={
+    Array [
+      Object {
+        "balance": 200,
+        "firstname": "Иван",
+        "id": 101,
+        "patronymic": "Иванович",
+        "surname": "Иванов",
+      },
+      Object {
+        "balance": 250,
+        "firstname": "Сидор",
+        "id": 105,
+        "patronymic": "Сидорович",
+        "surname": "Сидоров",
+      },
+      Object {
+        "balance": 0,
+        "firstname": "Петр",
+        "id": 110,
+        "patronymic": "Петрович",
+        "surname": "Петров",
+      },
+      Object {
+        "balance": 220,
+        "firstname": "Григорий",
+        "id": 120,
+        "patronymic": "Григорьевич",
+        "surname": "Григорьев",
+      },
+    ]
+  }
+  names={
+    Array [
+      Object {
+        "id": 1,
+        "name": "A1",
+      },
+      Object {
+        "id": 2,
+        "name": "МТС",
+      },
+      Object {
+        "id": 3,
+        "name": "life:)",
+      },
+    ]
+  }
+>
+  <div
+    className="MobileCompany"
+  >
+    <div
+      className="MobileCompanyName"
+    >
+      Компания «
+      A1
+      »
+    </div>
+    <div
+      className="MobileListFiltering"
+    >
+      <input
+        disabled=""
+        id="1"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        disabled=""
+        id="2"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        disabled=""
+        id="3"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="MobileCompanyClients"
+    >
+      <table
+        className="Table"
+      >
+        <thead
+          className="Head"
+        >
+          <tr
+            className="Row"
+          >
+            <td
+              className="Surname"
+            >
+              Фамилия
+            </td>
+            <td
+              className="Firstname"
+            >
+              Имя
+            </td>
+            <td
+              className="Patronymic"
+            >
+              Отчество
+            </td>
+            <td
+              className="Balance"
+            >
+              Баланс
+            </td>
+            <td
+              className="Control"
+            >
+              Управление
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          className="Body"
+        >
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 200,
+                "firstname": "Иван",
+                "id": 101,
+                "patronymic": "Иванович",
+                "surname": "Иванов",
+              }
+            }
+            key="101"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванов"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иван"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={101}
+                  onChange={[Function]}
+                  type="number"
+                  value={200}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={101}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={101}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 250,
+                "firstname": "Сидор",
+                "id": 105,
+                "patronymic": "Сидорович",
+                "surname": "Сидоров",
+              }
+            }
+            key="105"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидоров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидор"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидорович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={105}
+                  onChange={[Function]}
+                  type="number"
+                  value={250}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={105}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={105}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 0,
+                "firstname": "Петр",
+                "id": 110,
+                "patronymic": "Петрович",
+                "surname": "Петров",
+              }
+            }
+            key="110"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петр"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петрович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={110}
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={110}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={110}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 220,
+                "firstname": "Григорий",
+                "id": 120,
+                "patronymic": "Григорьевич",
+                "surname": "Григорьев",
+              }
+            }
+            key="120"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьев"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорий"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьевич"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={120}
+                  onChange={[Function]}
+                  type="number"
+                  value={220}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={120}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={120}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+        </tbody>
+      </table>
+    </div>
+    <input
+      disabled=""
+      id="4"
+      onClick={[Function]}
+      type="button"
+      value="Новый абонент"
+    />
+  </div>
+</MobileCompany>
+`;
+
+exports[`работа MobileCompany 2`] = `
+<MobileCompany
+  clients={
+    Array [
+      Object {
+        "balance": 200,
+        "firstname": "Иван",
+        "id": 101,
+        "patronymic": "Иванович",
+        "surname": "Иванов",
+      },
+      Object {
+        "balance": 250,
+        "firstname": "Сидор",
+        "id": 105,
+        "patronymic": "Сидорович",
+        "surname": "Сидоров",
+      },
+      Object {
+        "balance": 0,
+        "firstname": "Петр",
+        "id": 110,
+        "patronymic": "Петрович",
+        "surname": "Петров",
+      },
+      Object {
+        "balance": 220,
+        "firstname": "Григорий",
+        "id": 120,
+        "patronymic": "Григорьевич",
+        "surname": "Григорьев",
+      },
+    ]
+  }
+  names={
+    Array [
+      Object {
+        "id": 1,
+        "name": "A1",
+      },
+      Object {
+        "id": 2,
+        "name": "МТС",
+      },
+      Object {
+        "id": 3,
+        "name": "life:)",
+      },
+    ]
+  }
+>
+  <div
+    className="MobileCompany"
+  >
+    <div
+      className="MobileCompanyName"
+    >
+      Компания «
+      A1
+      »
+    </div>
+    <div
+      className="MobileListFiltering"
+    >
+      <input
+        disabled=""
+        id="1"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        disabled=""
+        id="2"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        disabled=""
+        id="3"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="MobileCompanyClients"
+    >
+      <table
+        className="Table"
+      >
+        <thead
+          className="Head"
+        >
+          <tr
+            className="Row"
+          >
+            <td
+              className="Surname"
+            >
+              Фамилия
+            </td>
+            <td
+              className="Firstname"
+            >
+              Имя
+            </td>
+            <td
+              className="Patronymic"
+            >
+              Отчество
+            </td>
+            <td
+              className="Balance"
+            >
+              Баланс
+            </td>
+            <td
+              className="Control"
+            >
+              Управление
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          className="Body"
+        >
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 200,
+                "firstname": "Иван",
+                "id": 101,
+                "patronymic": "Иванович",
+                "surname": "Иванов",
+              }
+            }
+            key="101"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванов"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иван"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={101}
+                  onChange={[Function]}
+                  type="number"
+                  value={200}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={101}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={101}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 250,
+                "firstname": "Сидор",
+                "id": 105,
+                "patronymic": "Сидорович",
+                "surname": "Сидоров",
+              }
+            }
+            key="105"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидоров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидор"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидорович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={105}
+                  onChange={[Function]}
+                  type="number"
+                  value={250}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={105}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={105}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 220,
+                "firstname": "Григорий",
+                "id": 120,
+                "patronymic": "Григорьевич",
+                "surname": "Григорьев",
+              }
+            }
+            key="120"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьев"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорий"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьевич"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={120}
+                  onChange={[Function]}
+                  type="number"
+                  value={220}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={120}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={120}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+        </tbody>
+      </table>
+    </div>
+    <input
+      disabled=""
+      id="4"
+      onClick={[Function]}
+      type="button"
+      value="Новый абонент"
+    />
+  </div>
+</MobileCompany>
+`;
+
+exports[`работа MobileCompany 3`] = `
+<MobileCompany
+  clients={
+    Array [
+      Object {
+        "balance": 200,
+        "firstname": "Иван",
+        "id": 101,
+        "patronymic": "Иванович",
+        "surname": "Иванов",
+      },
+      Object {
+        "balance": 250,
+        "firstname": "Сидор",
+        "id": 105,
+        "patronymic": "Сидорович",
+        "surname": "Сидоров",
+      },
+      Object {
+        "balance": 0,
+        "firstname": "Петр",
+        "id": 110,
+        "patronymic": "Петрович",
+        "surname": "Петров",
+      },
+      Object {
+        "balance": 220,
+        "firstname": "Григорий",
+        "id": 120,
+        "patronymic": "Григорьевич",
+        "surname": "Григорьев",
+      },
+    ]
+  }
+  names={
+    Array [
+      Object {
+        "id": 1,
+        "name": "A1",
+      },
+      Object {
+        "id": 2,
+        "name": "МТС",
+      },
+      Object {
+        "id": 3,
+        "name": "life:)",
+      },
+    ]
+  }
+>
+  <div
+    className="MobileCompany"
+  >
+    <div
+      className="MobileCompanyName"
+    >
+      Компания «
+      A1
+      »
+    </div>
+    <div
+      className="MobileListFiltering"
+    >
+      <input
+        disabled=""
+        id="1"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        disabled=""
+        id="2"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        disabled=""
+        id="3"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="MobileCompanyClients"
+    >
+      <table
+        className="Table"
+      >
+        <thead
+          className="Head"
+        >
+          <tr
+            className="Row"
+          >
+            <td
+              className="Surname"
+            >
+              Фамилия
+            </td>
+            <td
+              className="Firstname"
+            >
+              Имя
+            </td>
+            <td
+              className="Patronymic"
+            >
+              Отчество
+            </td>
+            <td
+              className="Balance"
+            >
+              Баланс
+            </td>
+            <td
+              className="Control"
+            >
+              Управление
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          className="Body"
+        >
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 0,
+                "firstname": "Петр",
+                "id": 110,
+                "patronymic": "Петрович",
+                "surname": "Петров",
+              }
+            }
+            key="110"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петр"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петрович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={110}
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={110}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={110}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+        </tbody>
+      </table>
+    </div>
+    <input
+      disabled=""
+      id="4"
+      onClick={[Function]}
+      type="button"
+      value="Новый абонент"
+    />
+  </div>
+</MobileCompany>
+`;
+
+exports[`работа MobileCompany 4`] = `
+<MobileCompany
+  clients={
+    Array [
+      Object {
+        "balance": 200,
+        "firstname": "Иван",
+        "id": 101,
+        "patronymic": "Иванович",
+        "surname": "Иванов",
+      },
+      Object {
+        "balance": 250,
+        "firstname": "Сидор",
+        "id": 105,
+        "patronymic": "Сидорович",
+        "surname": "Сидоров",
+      },
+      Object {
+        "balance": 0,
+        "firstname": "Петр",
+        "id": 110,
+        "patronymic": "Петрович",
+        "surname": "Петров",
+      },
+      Object {
+        "balance": 220,
+        "firstname": "Григорий",
+        "id": 120,
+        "patronymic": "Григорьевич",
+        "surname": "Григорьев",
+      },
+    ]
+  }
+  names={
+    Array [
+      Object {
+        "id": 1,
+        "name": "A1",
+      },
+      Object {
+        "id": 2,
+        "name": "МТС",
+      },
+      Object {
+        "id": 3,
+        "name": "life:)",
+      },
+    ]
+  }
+>
+  <div
+    className="MobileCompany"
+  >
+    <div
+      className="MobileCompanyName"
+    >
+      Компания «
+      A1
+      »
+    </div>
+    <div
+      className="MobileListFiltering"
+    >
+      <input
+        disabled=""
+        id="1"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        disabled=""
+        id="2"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        disabled=""
+        id="3"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="MobileCompanyClients"
+    >
+      <table
+        className="Table"
+      >
+        <thead
+          className="Head"
+        >
+          <tr
+            className="Row"
+          >
+            <td
+              className="Surname"
+            >
+              Фамилия
+            </td>
+            <td
+              className="Firstname"
+            >
+              Имя
+            </td>
+            <td
+              className="Patronymic"
+            >
+              Отчество
+            </td>
+            <td
+              className="Balance"
+            >
+              Баланс
+            </td>
+            <td
+              className="Control"
+            >
+              Управление
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          className="Body"
+        >
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 200,
+                "firstname": "Иван",
+                "id": 101,
+                "patronymic": "Иванович",
+                "surname": "Иванов",
+              }
+            }
+            key="101"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванов"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иван"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={101}
+                  onChange={[Function]}
+                  type="number"
+                  value={200}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={101}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={101}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 250,
+                "firstname": "Сидор",
+                "id": 105,
+                "patronymic": "Сидорович",
+                "surname": "Сидоров",
+              }
+            }
+            key="105"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидоров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидор"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидорович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={105}
+                  onChange={[Function]}
+                  type="number"
+                  value={250}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={105}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={105}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 0,
+                "firstname": "Петр",
+                "id": 110,
+                "patronymic": "Петрович",
+                "surname": "Петров",
+              }
+            }
+            key="110"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петр"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петрович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={110}
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={110}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={110}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 220,
+                "firstname": "Григорий",
+                "id": 120,
+                "patronymic": "Григорьевич",
+                "surname": "Григорьев",
+              }
+            }
+            key="120"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьев"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорий"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьевич"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={120}
+                  onChange={[Function]}
+                  type="number"
+                  value={220}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={120}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={120}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+        </tbody>
+      </table>
+    </div>
+    <input
+      disabled=""
+      id="4"
+      onClick={[Function]}
+      type="button"
+      value="Новый абонент"
+    />
+  </div>
+</MobileCompany>
+`;
+
+exports[`работа MobileCompany 5`] = `
+<MobileCompany
+  clients={
+    Array [
+      Object {
+        "balance": 200,
+        "firstname": "Иван",
+        "id": 101,
+        "patronymic": "Иванович",
+        "surname": "Иванов",
+      },
+      Object {
+        "balance": 250,
+        "firstname": "Сидор",
+        "id": 105,
+        "patronymic": "Сидорович",
+        "surname": "Сидоров",
+      },
+      Object {
+        "balance": 0,
+        "firstname": "Петр",
+        "id": 110,
+        "patronymic": "Петрович",
+        "surname": "Петров",
+      },
+      Object {
+        "balance": 220,
+        "firstname": "Григорий",
+        "id": 120,
+        "patronymic": "Григорьевич",
+        "surname": "Григорьев",
+      },
+    ]
+  }
+  names={
+    Array [
+      Object {
+        "id": 1,
+        "name": "A1",
+      },
+      Object {
+        "id": 2,
+        "name": "МТС",
+      },
+      Object {
+        "id": 3,
+        "name": "life:)",
+      },
+    ]
+  }
+>
+  <div
+    className="MobileCompany"
+  >
+    <div
+      className="MobileCompanyName"
+    >
+      Компания «
+      A1
+      »
+    </div>
+    <div
+      className="MobileListFiltering"
+    >
+      <input
+        disabled=""
+        id="1"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        disabled=""
+        id="2"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        disabled=""
+        id="3"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="MobileCompanyClients"
+    >
+      <table
+        className="Table"
+      >
+        <thead
+          className="Head"
+        >
+          <tr
+            className="Row"
+          >
+            <td
+              className="Surname"
+            >
+              Фамилия
+            </td>
+            <td
+              className="Firstname"
+            >
+              Имя
+            </td>
+            <td
+              className="Patronymic"
+            >
+              Отчество
+            </td>
+            <td
+              className="Balance"
+            >
+              Баланс
+            </td>
+            <td
+              className="Control"
+            >
+              Управление
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          className="Body"
+        >
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 200,
+                "firstname": "Иван",
+                "id": 101,
+                "patronymic": "Иванович",
+                "surname": "Иванов",
+              }
+            }
+            key="101"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванов"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иван"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={101}
+                  onChange={[Function]}
+                  type="number"
+                  value={200}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={101}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={101}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 250,
+                "firstname": "Сидор",
+                "id": 105,
+                "patronymic": "Сидорович",
+                "surname": "Сидоров",
+              }
+            }
+            key="105"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидоров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидор"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидорович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={105}
+                  onChange={[Function]}
+                  type="number"
+                  value={250}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={105}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={105}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 0,
+                "firstname": "Петр",
+                "id": 110,
+                "patronymic": "Петрович",
+                "surname": "Петров",
+              }
+            }
+            key="110"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петр"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петрович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={110}
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={110}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={110}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 220,
+                "firstname": "Григорий",
+                "id": 120,
+                "patronymic": "Григорьевич",
+                "surname": "Григорьев",
+              }
+            }
+            key="120"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьев"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорий"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьевич"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={120}
+                  onChange={[Function]}
+                  type="number"
+                  value={220}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={120}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={120}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 2001,
+                "firstname": "Алексей",
+                "id": 121,
+                "patronymic": "Викторович",
+                "surname": "Иванчик",
+              }
+            }
+            key="121"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={121}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванчик"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={121}
+                  onChange={[Function]}
+                  type="text"
+                  value="Алексей"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={121}
+                  onChange={[Function]}
+                  type="text"
+                  value="Викторович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={121}
+                  onChange={[Function]}
+                  type="number"
+                  value={2001}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={121}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={121}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+        </tbody>
+      </table>
+    </div>
+    <input
+      disabled=""
+      id="4"
+      onClick={[Function]}
+      type="button"
+      value="Новый абонент"
+    />
+  </div>
+</MobileCompany>
+`;
+
+exports[`работа MobileCompany 6`] = `
+<MobileCompany
+  clients={
+    Array [
+      Object {
+        "balance": 200,
+        "firstname": "Иван",
+        "id": 101,
+        "patronymic": "Иванович",
+        "surname": "Иванов",
+      },
+      Object {
+        "balance": 250,
+        "firstname": "Сидор",
+        "id": 105,
+        "patronymic": "Сидорович",
+        "surname": "Сидоров",
+      },
+      Object {
+        "balance": 0,
+        "firstname": "Петр",
+        "id": 110,
+        "patronymic": "Петрович",
+        "surname": "Петров",
+      },
+      Object {
+        "balance": 220,
+        "firstname": "Григорий",
+        "id": 120,
+        "patronymic": "Григорьевич",
+        "surname": "Григорьев",
+      },
+    ]
+  }
+  names={
+    Array [
+      Object {
+        "id": 1,
+        "name": "A1",
+      },
+      Object {
+        "id": 2,
+        "name": "МТС",
+      },
+      Object {
+        "id": 3,
+        "name": "life:)",
+      },
+    ]
+  }
+>
+  <div
+    className="MobileCompany"
+  >
+    <div
+      className="MobileCompanyName"
+    >
+      Компания «
+      A1
+      »
+    </div>
+    <div
+      className="MobileListFiltering"
+    >
+      <input
+        disabled=""
+        id="1"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        disabled=""
+        id="2"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        disabled=""
+        id="3"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="MobileCompanyClients"
+    >
+      <table
+        className="Table"
+      >
+        <thead
+          className="Head"
+        >
+          <tr
+            className="Row"
+          >
+            <td
+              className="Surname"
+            >
+              Фамилия
+            </td>
+            <td
+              className="Firstname"
+            >
+              Имя
+            </td>
+            <td
+              className="Patronymic"
+            >
+              Отчество
+            </td>
+            <td
+              className="Balance"
+            >
+              Баланс
+            </td>
+            <td
+              className="Control"
+            >
+              Управление
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          className="Body"
+        >
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 200,
+                "firstname": "Иван",
+                "id": 101,
+                "patronymic": "Иванович",
+                "surname": "Иванов",
+              }
+            }
+            key="101"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванов"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иван"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={101}
+                  onChange={[Function]}
+                  type="number"
+                  value={200}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={101}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={101}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 250,
+                "firstname": "Сидор",
+                "id": 105,
+                "patronymic": "Сидорович",
+                "surname": "Сидоров",
+              }
+            }
+            key="105"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидоров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидор"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидорович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={105}
+                  onChange={[Function]}
+                  type="number"
+                  value={250}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={105}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={105}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 0,
+                "firstname": "Петр",
+                "id": 110,
+                "patronymic": "Петрович",
+                "surname": "Петров",
+              }
+            }
+            key="110"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петр"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петрович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={110}
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={110}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={110}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 220,
+                "firstname": "Григорий",
+                "id": 120,
+                "patronymic": "Григорьевич",
+                "surname": "Григорьев",
+              }
+            }
+            key="120"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьев"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорий"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьевич"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={120}
+                  onChange={[Function]}
+                  type="number"
+                  value={220}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={120}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={120}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 2001,
+                "firstname": "Иван",
+                "id": 121,
+                "patronymic": "Викторович",
+                "surname": "Иванчик",
+              }
+            }
+            key="121"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={121}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванчик"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={121}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иван"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={121}
+                  onChange={[Function]}
+                  type="text"
+                  value="Викторович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={121}
+                  onChange={[Function]}
+                  type="number"
+                  value={2001}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={121}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={121}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+        </tbody>
+      </table>
+    </div>
+    <input
+      disabled=""
+      id="4"
+      onClick={[Function]}
+      type="button"
+      value="Новый абонент"
+    />
+  </div>
+</MobileCompany>
+`;
+
+exports[`работа MobileCompany 7`] = `
+<MobileCompany
+  clients={
+    Array [
+      Object {
+        "balance": 200,
+        "firstname": "Иван",
+        "id": 101,
+        "patronymic": "Иванович",
+        "surname": "Иванов",
+      },
+      Object {
+        "balance": 250,
+        "firstname": "Сидор",
+        "id": 105,
+        "patronymic": "Сидорович",
+        "surname": "Сидоров",
+      },
+      Object {
+        "balance": 0,
+        "firstname": "Петр",
+        "id": 110,
+        "patronymic": "Петрович",
+        "surname": "Петров",
+      },
+      Object {
+        "balance": 220,
+        "firstname": "Григорий",
+        "id": 120,
+        "patronymic": "Григорьевич",
+        "surname": "Григорьев",
+      },
+    ]
+  }
+  names={
+    Array [
+      Object {
+        "id": 1,
+        "name": "A1",
+      },
+      Object {
+        "id": 2,
+        "name": "МТС",
+      },
+      Object {
+        "id": 3,
+        "name": "life:)",
+      },
+    ]
+  }
+>
+  <div
+    className="MobileCompany"
+  >
+    <div
+      className="MobileCompanyName"
+    >
+      Компания «
+      A1
+      »
+    </div>
+    <div
+      className="MobileListFiltering"
+    >
+      <input
+        disabled=""
+        id="1"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        disabled=""
+        id="2"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        disabled=""
+        id="3"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="MobileCompanyClients"
+    >
+      <table
+        className="Table"
+      >
+        <thead
+          className="Head"
+        >
+          <tr
+            className="Row"
+          >
+            <td
+              className="Surname"
+            >
+              Фамилия
+            </td>
+            <td
+              className="Firstname"
+            >
+              Имя
+            </td>
+            <td
+              className="Patronymic"
+            >
+              Отчество
+            </td>
+            <td
+              className="Balance"
+            >
+              Баланс
+            </td>
+            <td
+              className="Control"
+            >
+              Управление
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          className="Body"
+        >
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 200,
+                "firstname": "Иван",
+                "id": 101,
+                "patronymic": "Иванович",
+                "surname": "Иванов",
+              }
+            }
+            key="101"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванов"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иван"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={101}
+                  onChange={[Function]}
+                  type="text"
+                  value="Иванович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={101}
+                  onChange={[Function]}
+                  type="number"
+                  value={200}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={101}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={101}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 250,
+                "firstname": "Сидор",
+                "id": 105,
+                "patronymic": "Сидорович",
+                "surname": "Сидоров",
+              }
+            }
+            key="105"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидоров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидор"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={105}
+                  onChange={[Function]}
+                  type="text"
+                  value="Сидорович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={105}
+                  onChange={[Function]}
+                  type="number"
+                  value={250}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={105}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={105}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 0,
+                "firstname": "Петр",
+                "id": 110,
+                "patronymic": "Петрович",
+                "surname": "Петров",
+              }
+            }
+            key="110"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петров"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петр"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={110}
+                  onChange={[Function]}
+                  type="text"
+                  value="Петрович"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={110}
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={110}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={110}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+          <MobileClient
+            editClientId={0}
+            info={
+              Object {
+                "balance": 220,
+                "firstname": "Григорий",
+                "id": 120,
+                "patronymic": "Григорьевич",
+                "surname": "Григорьев",
+              }
+            }
+            key="120"
+          >
+            <tr>
+              <td>
+                <input
+                  disabled="disabled"
+                  isurnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьев"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ifirstnameid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорий"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ipatronicid={120}
+                  onChange={[Function]}
+                  type="text"
+                  value="Григорьевич"
+                />
+              </td>
+              <td>
+                <input
+                  disabled="disabled"
+                  ibalanceid={120}
+                  onChange={[Function]}
+                  type="number"
+                  value={220}
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  beditid={120}
+                  disabled=""
+                  onClick={[Function]}
+                  type="button"
+                  value="Редактировать"
+                />
+              </td>
+              <td
+                className="Control"
+              >
+                <input
+                  bdeleteid={120}
+                  onClick={[Function]}
+                  type="button"
+                  value="Удалить"
+                />
+              </td>
+            </tr>
+          </MobileClient>
+        </tbody>
+      </table>
+    </div>
+    <input
+      disabled=""
+      id="4"
+      onClick={[Function]}
+      type="button"
+      value="Новый абонент"
+    />
+  </div>
+</MobileCompany>
+`;
